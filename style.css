@@ -1,0 +1,51 @@
+/* Estilos para o carrossel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Cores do tema JoJo */
+.jojo-theme-bg {
+    background-color: #3a0ca3;
+}
+
+.jojo-theme-text {
+    color: #f72585;
+}
+
+/* Efeito hover para os cards de personagens */
+.character-card {
+    transition: transform 0.3s;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos adicionais para melhorar a aparência */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes de responsividade */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
